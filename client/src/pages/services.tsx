@@ -50,8 +50,8 @@ export default function Services() {
           </p>
           <div className="mt-8">
             <img
-              src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=400&q=80"
-              alt="Abstract technology concepts"
+              src="https://picsum.photos/1920/400?random=1&grayscale"
+              alt="Technology workspace"
               className="w-full h-64 object-cover rounded-lg grayscale opacity-80"
               data-testid="img-services-hero"
             />
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80"
+                src="https://picsum.photos/800/600?random=2&grayscale"
                 alt="Modern software development workspace"
                 className="w-full h-80 object-cover rounded-lg grayscale"
                 data-testid="img-workspace"
@@ -93,7 +93,7 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80"
+                src="https://picsum.photos/800/600?random=3&grayscale"
                 alt="Digital innovation concepts"
                 className="w-full h-80 object-cover rounded-lg grayscale"
                 data-testid="img-innovation"

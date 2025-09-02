@@ -115,14 +115,14 @@ export default function Contact() {
               {/* Technology Images */}
               <div className="mt-8 space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=300&q=80"
-                  alt="Futuristic technology concept"
+                  src="https://picsum.photos/800/300?random=9&grayscale"
+                  alt="Technology concept"
                   className="w-full h-48 object-cover rounded-lg grayscale"
                   data-testid="img-tech-concept-1"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=300&q=80"
-                  alt="Digital innovation grayscale"
+                  src="https://picsum.photos/800/300?random=10&grayscale"
+                  alt="Digital innovation"
                   className="w-full h-48 object-cover rounded-lg grayscale"
                   data-testid="img-tech-concept-2"
                 />

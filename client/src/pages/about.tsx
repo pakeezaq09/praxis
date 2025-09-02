@@ -61,7 +61,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80"
+                src="https://picsum.photos/800/600?random=4&grayscale"
                 alt="Modern technology workspace"
                 className="w-full h-96 object-cover rounded-lg grayscale"
                 data-testid="img-company-workspace"
@@ -72,20 +72,20 @@ export default function About() {
           {/* Additional Technology Images */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <img
-              src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80"
-              alt="Abstract technology grayscale"
+              src="https://picsum.photos/600/400?random=5&grayscale"
+              alt="Technology concept"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-abstract-1"
             />
             <img
-              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80"
+              src="https://picsum.photos/600/400?random=6&grayscale"
               alt="Modern software development"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-development"
             />
             <img
-              src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80"
-              alt="Digital innovation grayscale"
+              src="https://picsum.photos/600/400?random=7&grayscale"
+              alt="Digital innovation"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-innovation"
             />

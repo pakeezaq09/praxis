@@ -79,8 +79,8 @@ export default function Appointment() {
           </p>
           <div className="mt-8">
             <img
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=400&q=80"
-              alt="Futuristic tech concepts"
+              src="https://picsum.photos/1920/400?random=8&grayscale"
+              alt="Professional workspace"
               className="w-full h-64 object-cover rounded-lg grayscale opacity-80"
               data-testid="img-appointment-hero"
             />
