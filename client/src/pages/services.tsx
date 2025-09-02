@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ServiceCard from "@/components/ui/service-card";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
-import { Code, Smartphone, Brain, Laptop, Cloud, Shield, Zap, Users } from "lucide-react";
+import { Code, Smartphone, Brain, Laptop } from "lucide-react";
 
 export default function Services() {
   const [servicesRef, servicesInView] = useIntersectionObserver();
@@ -34,34 +34,6 @@ export default function Services() {
       tags: ["Machine Learning", "Smart Automation", "Data Analytics", "Predictive Intelligence"],
       description: "We help businesses unlock the power of AI through smart integrations...",
       fullDescription: "We help businesses unlock the power of AI through smart integrations, machine learning models, and intelligent automation solutions that drive efficiency and innovation. Our AI solutions include chatbots, recommendation systems, predictive analytics, and process automation that transform how businesses operate and serve their customers."
-    },
-    {
-      icon: Cloud,
-      title: "Cloud Solutions",
-      tags: ["Migration", "Scalability", "Security", "Cost Optimization"],
-      description: "Seamless cloud migration and optimization services...",
-      fullDescription: "We provide comprehensive cloud solutions including migration, optimization, and management services. Our cloud expertise helps businesses reduce costs, improve scalability, and enhance security while ensuring seamless operations. From AWS to Azure and Google Cloud, we optimize your infrastructure for maximum efficiency."
-    },
-    {
-      icon: Shield,
-      title: "Cybersecurity",
-      tags: ["Threat Protection", "Risk Assessment", "Compliance", "24/7 Monitoring"],
-      description: "Comprehensive security solutions to protect your digital assets...",
-      fullDescription: "Our cybersecurity services protect your business from evolving digital threats. We provide comprehensive security audits, implementation of security protocols, continuous monitoring, and incident response services. Our proactive approach ensures your data and systems remain secure while maintaining business continuity."
-    },
-    {
-      icon: Zap,
-      title: "Digital Transformation",
-      tags: ["Process Automation", "Legacy Modernization", "Integration", "Change Management"],
-      description: "Complete digital transformation solutions for modern businesses...",
-      fullDescription: "We guide businesses through comprehensive digital transformation journeys, modernizing legacy systems, automating processes, and implementing cutting-edge technologies. Our holistic approach ensures seamless transition while maximizing ROI and minimizing disruption to your operations."
-    },
-    {
-      icon: Users,
-      title: "IT Consulting",
-      tags: ["Strategic Planning", "Technology Assessment", "Architecture Design", "Best Practices"],
-      description: "Expert technology consulting and strategic guidance...",
-      fullDescription: "Our IT consulting services provide strategic technology guidance to help businesses make informed decisions about their technology investments. We offer architecture design, technology assessments, strategic planning, and implementation guidance to ensure your technology initiatives align with business objectives."
     }
   ];
 

@@ -174,7 +174,7 @@ export default function About() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <Counter
-                target={5}
+                target={1}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -184,7 +184,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <Counter
-                target={150}
+                target={5}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -194,7 +194,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <Counter
-                target={50}
+                target={10}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -204,7 +204,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <Counter
-                target={25}
+                target={3}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}

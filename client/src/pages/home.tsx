@@ -80,7 +80,7 @@ export default function Home() {
             }`}
             data-testid="hero-title"
           >
-            We Reimagine Tomorrow
+            From Theory to Practice, From Ideas to Impact
           </h1>
           <p
             className={`text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto transition-all duration-1000 delay-300 ${
@@ -88,7 +88,7 @@ export default function Home() {
             }`}
             data-testid="hero-subtitle"
           >
-            Driving growth and molding the future through transformative technology solutions
+            Engineering tomorrow through intelligent, reliable systems
           </p>
           <div
             className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-500 ${
@@ -183,7 +183,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <Counter
-                target={5}
+                target={1}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <Counter
-                target={150}
+                target={5}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -203,7 +203,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <Counter
-                target={50}
+                target={10}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}
@@ -213,7 +213,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <Counter
-                target={25}
+                target={3}
                 suffix="+"
                 className="counter gradient-text"
                 isVisible={statsInView}

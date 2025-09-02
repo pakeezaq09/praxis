@@ -114,20 +114,20 @@ export default function Footer() {
               Contact
             </h4>
             <p className="text-gray-400 mb-2" data-testid="text-footer-email">
-              contact@praxissystems.co.uk
+              info@praxissystems.com
             </p>
             <p className="text-gray-400 mb-2" data-testid="text-footer-phone">
-              +44 20 7946 0958
+              +44 07856 147670
             </p>
             <p className="text-gray-400" data-testid="text-footer-location">
-              London, United Kingdom
+              Wolverhampton, United Kingdom
             </p>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400" data-testid="text-copyright">
-            © 2022 Praxis Systems. All rights reserved.
+            © 2024 Praxis Systems. All rights reserved.
           </p>
         </div>
       </div>

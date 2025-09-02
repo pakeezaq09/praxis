@@ -63,11 +63,7 @@ export default function Appointment() {
     "Web Development",
     "Software Development", 
     "Mobile App Development",
-    "AI Solutions",
-    "Cloud Solutions",
-    "Cybersecurity",
-    "Digital Transformation",
-    "IT Consulting"
+    "AI Solutions"
   ];
 
   return (

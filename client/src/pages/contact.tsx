@@ -84,7 +84,7 @@ export default function Contact() {
                   <div>
                     <p className="text-white font-medium">Email</p>
                     <p className="text-gray-400" data-testid="text-email-address">
-                      contact@praxissystems.co.uk
+                      info@praxissystems.com
                     </p>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                   <div>
                     <p className="text-white font-medium">Phone</p>
                     <p className="text-gray-400" data-testid="text-phone-number">
-                      +44 20 7946 0958
+                      +44 07856 147670
                     </p>
                   </div>
                 </div>
@@ -104,9 +104,9 @@ export default function Contact() {
                   <div>
                     <p className="text-white font-medium">Address</p>
                     <p className="text-gray-400" data-testid="text-office-address">
-                      25 Old Broad Street<br />
-                      London EC2N 1HN<br />
-                      United Kingdom
+                      5A Victoria Fold<br />
+                      Wolverhampton, West Midlands<br />
+                      WV1 4LE, United Kingdom
                     </p>
                   </div>
                 </div>
