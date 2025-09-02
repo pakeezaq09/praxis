@@ -1,0 +1,68 @@
+You are a professional web developer. Build me a complete multi-page responsive website for my software company "Praxis Systems".  
+
+Theme:
+- Modern, chic, professional, minimalistic.
+- Colors: navy blue, black, white, grey (gradients optional for techy feel).
+- Font: Google Fonts (Poppins, Inter, or Roboto).
+- Smooth animations: hover effects, fade-ins, slide-ins, scroll animations.
+
+Company Info:
+- Praxis Systems provides all services under a modern software company: Web Development, App Development, AI solutions, software solutions, and more.
+- The website must reflect innovation, trust, and luxury for international clients.
+
+Pages:
+
+1. **Home Page**
+   - Hero section with company name, tagline, and "Get Started" button.
+   - Background gradient or high-quality stock image.
+   - Highlight key services with small animated cards or sections.
+
+2. **About Page**
+   - Chic, professional, and impressive write-up about Praxis Systems.
+   - Include mission, vision, and values.
+   - Showcase company strengths with sleek icons or graphics.
+   - Add optional team section with placeholder images and hover animations.
+   - Make the text elegant and persuasive to impress potential clients.
+
+3. **Services Page**
+   - Display all services: Web Development, App Development, AI, Software Solutions, and any other software-related offerings.
+   - Use stylish cards or grid layout with hover effects.
+   - Include icons/illustrations for each service.
+
+4. **Make an Appointment Page**
+   - A clean, professional form:
+     <form method="POST" action="appointment_handler.php">
+       <input type="text" name="name" placeholder="Your Name" required>
+       <input type="email" name="email" placeholder="Your Email" required>
+       <input type="text" name="service" placeholder="Service Interested In" required>
+       <input type="date" name="date" required>
+       <textarea name="message" placeholder="Additional Details"></textarea>
+       <button type="submit">Book Appointment</button>
+     </form>
+   - Style it with gradients, hover animations, and make it visually appealing.
+   - Responsive and mobile-friendly.
+
+5. **Contact Us Page**
+   - Include company email, phone, address.
+   - Embed Google Maps iframe for location.
+   - Contact form similar to appointment form:
+     <form method="POST" action="contact_handler.php">
+       <input type="text" name="name" placeholder="Your Name" required>
+       <input type="email" name="email" placeholder="Your Email" required>
+       <textarea name="message" placeholder="Your Message"></textarea>
+       <button type="submit">Send Message</button>
+     </form>
+   - Style professionally with animations and hover effects.
+
+Footer:
+- Dark background, white text.
+- Social media icons (LinkedIn, Twitter, etc.).
+- Copyright © 2025 Praxis Systems.
+- Quick links to all pages.
+
+Other requirements:
+- Navigation bar sticky with hover underline animations.
+- Smooth scroll between sections.
+- Include at least 1 techy illustration or royalty-free image per page (from Unsplash/Pexels via direct links).
+- Responsive for desktop and mobile.
+- Keep code organized: separate HTML, CSS, and JS files with comments.
