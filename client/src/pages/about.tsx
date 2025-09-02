@@ -155,66 +155,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Company Stats */}
-      <section
-        ref={statsRef}
-        className="py-20 bg-black"
-        data-testid="company-stats"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text" data-testid="text-stats-title">
-              Our Journey So Far
-            </h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto" data-testid="text-stats-subtitle">
-              Building excellence through dedication and innovation
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <Counter
-                target={1}
-                suffix="+"
-                className="counter gradient-text"
-                isVisible={statsInView}
-                data-testid="counter-years-excellence"
-              />
-              <p className="text-gray-400 mt-2" data-testid="text-years-excellence">Years of Excellence</p>
-            </div>
-            <div className="text-center">
-              <Counter
-                target={5}
-                suffix="+"
-                className="counter gradient-text"
-                isVisible={statsInView}
-                data-testid="counter-projects-completed"
-              />
-              <p className="text-gray-400 mt-2" data-testid="text-projects-completed">Projects Completed</p>
-            </div>
-            <div className="text-center">
-              <Counter
-                target={10}
-                suffix="+"
-                className="counter gradient-text"
-                isVisible={statsInView}
-                data-testid="counter-happy-clients"
-              />
-              <p className="text-gray-400 mt-2" data-testid="text-happy-clients">Happy Clients</p>
-            </div>
-            <div className="text-center">
-              <Counter
-                target={3}
-                suffix="+"
-                className="counter gradient-text"
-                isVisible={statsInView}
-                data-testid="counter-team-members"
-              />
-              <p className="text-gray-400 mt-2" data-testid="text-team-members">Team Members</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Why Choose Us */}
       <section className="py-20 gradient-bg" data-testid="why-choose-us">
