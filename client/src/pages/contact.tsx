@@ -84,7 +84,7 @@ export default function Contact() {
                   <div>
                     <p className="text-white font-medium">Email</p>
                     <p className="text-gray-400" data-testid="text-email-address">
-                      info@praxissystems.com
+                      info@praxisystems.com
                     </p>
                   </div>
                 </div>
@@ -115,13 +115,13 @@ export default function Contact() {
               {/* Technology Images */}
               <div className="mt-8 space-y-4">
                 <img
-                  src="https://picsum.photos/800/300?random=9&grayscale"
+                  src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=800&h=300&fit=crop"
                   alt="Technology concept"
                   className="w-full h-48 object-cover rounded-lg grayscale"
                   data-testid="img-tech-concept-1"
                 />
                 <img
-                  src="https://picsum.photos/800/300?random=10&grayscale"
+                  src="https://images.pexels.com/photos/518244/pexels-photo-518244.jpeg?auto=compress&cs=tinysrgb&w=800&h=300&fit=crop"
                   alt="Digital innovation"
                   className="w-full h-48 object-cover rounded-lg grayscale"
                   data-testid="img-tech-concept-2"

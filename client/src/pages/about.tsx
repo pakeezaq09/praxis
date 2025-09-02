@@ -61,7 +61,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://picsum.photos/800/600?random=4&grayscale"
+                src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="Modern technology workspace"
                 className="w-full h-96 object-cover rounded-lg grayscale"
                 data-testid="img-company-workspace"
@@ -72,19 +72,19 @@ export default function About() {
           {/* Additional Technology Images */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <img
-              src="https://picsum.photos/600/400?random=5&grayscale"
+              src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
               alt="Technology concept"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-abstract-1"
             />
             <img
-              src="https://picsum.photos/600/400?random=6&grayscale"
+              src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
               alt="Modern software development"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-development"
             />
             <img
-              src="https://picsum.photos/600/400?random=7&grayscale"
+              src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
               alt="Digital innovation"
               className="w-full h-64 object-cover rounded-lg grayscale"
               data-testid="img-tech-innovation"

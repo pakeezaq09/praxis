@@ -79,7 +79,7 @@ export default function Appointment() {
           </p>
           <div className="mt-8">
             <img
-              src="https://picsum.photos/1920/400?random=8&grayscale"
+              src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=1920&h=400&fit=crop"
               alt="Professional workspace"
               className="w-full h-64 object-cover rounded-lg grayscale opacity-80"
               data-testid="img-appointment-hero"

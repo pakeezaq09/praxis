@@ -50,7 +50,7 @@ export default function Services() {
           </p>
           <div className="mt-8">
             <img
-              src="https://picsum.photos/1920/400?random=1&grayscale"
+              src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1920&h=400&fit=crop"
               alt="Technology workspace"
               className="w-full h-64 object-cover rounded-lg grayscale opacity-80"
               data-testid="img-services-hero"
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="https://picsum.photos/800/600?random=2&grayscale"
+                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="Modern software development workspace"
                 className="w-full h-80 object-cover rounded-lg grayscale"
                 data-testid="img-workspace"
@@ -93,7 +93,7 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="https://picsum.photos/800/600?random=3&grayscale"
+                src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="Digital innovation concepts"
                 className="w-full h-80 object-cover rounded-lg grayscale"
                 data-testid="img-innovation"

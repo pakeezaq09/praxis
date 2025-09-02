@@ -114,7 +114,7 @@ export default function Footer() {
               Contact
             </h4>
             <p className="text-gray-400 mb-2" data-testid="text-footer-email">
-              info@praxissystems.com
+              info@praxisystems.com
             </p>
             <p className="text-gray-400 mb-2" data-testid="text-footer-phone">
               +44 07856 147670
